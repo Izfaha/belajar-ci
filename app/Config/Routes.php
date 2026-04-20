@@ -16,3 +16,7 @@ $routes->get('/produk', [ProdukController::class, 'index']);
 
 // keranjang route
 $routes->get('/keranjang', [TransaksiController::class, 'index']);
+
+$routes->get('login', 'AuthController::login');
+$routes->post('login', 'AuthController::login');
+$routes->get('logout', 'AuthController::logout');
