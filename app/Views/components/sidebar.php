@@ -24,6 +24,13 @@
           <span>Produk</span>
         </a>
       </li><!-- End Produk Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link <?php echo (uri_string() == 'profile') ? '' : 'collapsed' ?>" href="profile">
+          <i class="bi bi-receipt"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End User Profile Nav -->
     <?php
     }
     ?>
